@@ -55,8 +55,7 @@ p {
     align-items: center;
     padding-top: 24px;
     padding-bottom: 25px;
-    border-bottom: border: 1px solid #ECECEC;
-    ;
+    border-bottom: 1px solid var(--border-color);
 }
 
 .header__container {
@@ -418,4 +417,106 @@ p {
 .footer__contacts__link:hover,
 .footer__contacts__link:focus {
     color: var(--accent-color);
+}
+
+
+/*Portfolio*/
+
+.portfolio {}
+
+.portfolio__container {}
+
+._container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.portfolio__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.portfolio__item {
+    margin-right: 8px;
+}
+
+.portfolio__item:last-child {
+    margin-right: 0px;
+}
+
+.portfolio-btn {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: var(--secondary-bg-color);
+    padding: 10px 32px;
+    border: 0px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    font-family: inherit;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: var(--primary-white-color);
+    background-color: var(--hero-btn-hover-color);
+}
+
+.active {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.product__container {}
+
+.product__list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products__card {
+    padding: 20px 24px 20px 24px;
+    border: 1px solid var(--border-color);
+    border-top: none;
+}
+
+.product__item {
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.product__item:nth-child(3n + 3) {
+    margin-right: 0px;
+}
+
+.product__title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+    margin-bottom: 4px;
+}
+
+.product__text {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }
