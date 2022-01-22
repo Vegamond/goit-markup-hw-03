@@ -422,7 +422,9 @@ p {
 
 /*Portfolio*/
 
-.portfolio {}
+.portfolio.section {
+    padding-bottom: 140px;
+}
 
 .portfolio__container {}
 
@@ -438,7 +440,6 @@ p {
     list-style: none;
     display: flex;
     justify-content: center;
-    margin-top: 100px;
     margin-bottom: 50px;
 }
 
