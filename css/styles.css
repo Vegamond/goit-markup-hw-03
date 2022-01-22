@@ -251,7 +251,9 @@ p {
 
 /*whatwedo*/
 
-.whatwedo__section {}
+.whatwedo__section {
+    padding-bottom: 94px;
+}
 
 .whatwedo__container {}
 
