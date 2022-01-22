@@ -55,6 +55,8 @@ p {
     align-items: center;
     padding-top: 24px;
     padding-bottom: 25px;
+    border-bottom: border: 1px solid #ECECEC;
+    ;
 }
 
 .header__container {
@@ -204,6 +206,9 @@ p {
     background-color: var(--hero-btn-hover-color);
 }
 
+
+/*features*/
+
 .features__section {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -337,6 +342,9 @@ p {
     padding-bottom: 30px;
 }
 
+
+/*footer*/
+
 .footer {
     background-color: var(--first-bg-color);
     padding-top: 60px;
@@ -377,12 +385,13 @@ p {
 }
 
 .map {
+    font-style: normal;
+    font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: var(--primary-white-color);
     text-decoration: none;
-    font-style: normal;
 }
 
 .footer__contacts__item {
