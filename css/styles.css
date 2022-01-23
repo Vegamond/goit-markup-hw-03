@@ -277,6 +277,12 @@ p {
     margin-right: 30px;
 }
 
+.whatwedo__item img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .whatwedo__item:last-child {
     margin-right: 0px;
 }
