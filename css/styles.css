@@ -451,8 +451,6 @@ p {
 
 .portfolio.section {}
 
-.portfolio__container {}
-
 .portfolio__list {
     list-style: none;
     display: flex;
@@ -469,12 +467,12 @@ p {
 }
 
 .portfolio-btn {
-    font-size: 16px;
-    line-height: 26px;
+    font-weight: 500;
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
     background-color: var(--secondary-bg-color);
-    padding: 10px 32px;
+    padding: 6px 22px;
     border: 0px;
     border-radius: 4px;
     font-weight: bold;
