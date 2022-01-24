@@ -117,7 +117,7 @@ p {
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
@@ -180,7 +180,7 @@ p {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--secondary-bg-color);
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 
@@ -287,14 +287,14 @@ p {
     margin-right: 30px;
 }
 
+.whatwedo__item:last-child {
+    margin-right: 0px;
+}
+
 .whatwedo__item img {
     display: block;
     max-width: 100%;
     height: auto;
-}
-
-.whatwedo__item:last-child {
-    margin-right: 0px;
 }
 
 
@@ -321,7 +321,7 @@ p {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .team__list {
@@ -429,6 +429,7 @@ p {
     list-style: none;
     font-style: normal;
     text-decoration: none;
+    margin-top: 9px;
 }
 
 .footer__contacts__link {
@@ -438,7 +439,6 @@ p {
     line-height: 16px;
     letter-spacing: 0.02em;
     text-decoration: none;
-    margin-top: 9px;
 }
 
 .footer__contacts__link:hover,
@@ -501,6 +501,7 @@ p {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    margin-top: -30px;
 }
 
 .products__card {
@@ -521,7 +522,7 @@ p {
 .product__title {
     font-weight: bold;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-text-color);
     margin-bottom: 4px;
